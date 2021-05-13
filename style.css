@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.logo img{
+   float: left;
+   width: 150px;
+   height: auto;
+}
+
+.topleft{
+    width: 150;
+    height: 150;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.topright{
+    width: 150;
+    height: 150;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.bottomright{
+    width: 150;
+    height: 150;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+.bottomright{
+    width: 150;
+    height: 150;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.bottomleft{
+    width: 150;
+    height: 150;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+#home{
+    height: 1920px;
+    width: 1080px;
+}
+
+#sectiuni{
+    background-color: white;
+    height: 1920px;
+    width: 1080px;
+}
+
+.text{
+    position:absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+
+.text h1{
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    width: 150;
+    height: 150;
+    position: center;
+    top: 40px;
+    left: 12px;
+    right: 12px;
+}
+
+.text h2{
+    color: white;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    width: 150;
+    height: 150;
+    position: center;
+    top: 40px;
+    left: 12px;
+    right: 12px;
+}
+
+.pian{
+    width: 250;
+    height: 250;
+    position: relative;
+    top: 250px;
+    margin-left: 850px;
+    right: 12px;
+}
+
+.menu {
+    position: absolute;
+    top: 30px;
+    left: 630px;
+    float: right;
+    list-style-type: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    margin-top: 15px;
+    transition: 0.6 ease;
+}
+
+.menu li {
+	display: inline-block;
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.menu li a:hover {
+	background: #fff;
+	color: #000;
+}
+
+.button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6 ease;
+}
+
+.btn:hover{
+    background: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
